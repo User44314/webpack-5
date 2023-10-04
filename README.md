@@ -7,7 +7,7 @@
 # .gitignore (node_models)
 # npm i
 # first start -> npm run build
-#
+# looking unswer -> node dist/main.js
 #
 #
 #
