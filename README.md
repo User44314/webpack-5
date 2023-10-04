@@ -11,7 +11,7 @@
 # npm start
 # npm run build
 # npm i -D babel-loader @babel/core @babel/preset-env
-#
+# npm run build-dev
 #
 #
 #
