@@ -9,8 +9,8 @@
 # first start -> npm run build
 # looking unswer -> node dist/main.js
 # npm start
-#
-#
+# npm run build
+# npm i -D babel-loader @babel/core @babel/preset-env
 #
 #
 #
