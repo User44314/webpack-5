@@ -1,3 +1,5 @@
+import "./styles/index.css";
+
 const elvenShieldRecipe = {
   leatherStrips: 2,
   ironIngot: 1,
@@ -10,5 +12,5 @@ const elvenGauntletsRecipe = {
   refinedMoonstone: 4,
 };
 
-console.log(elvenShiledRecipe);
+console.log(elvenShieldRecipe);
 console.log(elvenGauntletsRecipe);

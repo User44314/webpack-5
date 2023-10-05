@@ -12,9 +12,9 @@
 # npm run build
 # npm i -D babel-loader @babel/core @babel/preset-env
 # npm run build-dev
-#
-#
-#
+# npm i -D css-loader mini-css-extract-plugin
+# add css file to html -> link:css
+# npm start
 #
 #
 #
