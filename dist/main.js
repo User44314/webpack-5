@@ -13,28 +13,113 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Recipes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Recipes */ "./src/components/Recipes.jsx");
+/* harmony import */ var _images_swc_sword_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/swc-sword.png */ "./src/images/swc-sword.png");
+/* harmony import */ var _images_sword_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/sword.svg */ "./src/images/sword.svg");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
 
 
 var App = function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("section", {
       className: "hero"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("main", {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("main", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("section", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
           children: "Oh hi react"
         })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+        src: _images_swc_sword_png__WEBPACK_IMPORTED_MODULE_2__,
+        alt: "sword",
+        width: "250px"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+        src: _images_sword_svg__WEBPACK_IMPORTED_MODULE_3__,
+        alt: "swordSvg",
+        width: "250px"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Recipes__WEBPACK_IMPORTED_MODULE_1__["default"], {})]
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+
+/***/ }),
+
+/***/ "./src/components/Recipes.jsx":
+/*!************************************!*\
+  !*** ./src/components/Recipes.jsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+// Importing "react" is still required when using methods from it
+
+
+
+var elvenShieldRecipe = {
+  leatherStrips: 2,
+  ironIngot: 1,
+  refinedMoonstone: 4
+};
+var elvenGauntletsRecipe = _objectSpread(_objectSpread({}, elvenShieldRecipe), {}, {
+  leather: 1,
+  refinedMoonstone: 4
+});
+console.log(elvenShieldRecipe);
+console.log(elvenGauntletsRecipe);
+var Recipes = function Recipes() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(elvenShieldRecipe),
+    _useState2 = _slicedToArray(_useState, 2),
+    recipe = _useState2[0],
+    setRecipe = _useState2[1];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+      children: "Current Recipe:"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+      onClick: function onClick() {
+        return setRecipe(elvenShieldRecipe);
+      },
+      children: "Elven Shield"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+      onClick: function onClick() {
+        return setRecipe(elvenGauntletsRecipe);
+      },
+      children: "Elven Gauntlets"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+      children: Object.keys(recipe).map(function (material) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("li", {
+          children: [material, ": ", recipe[material]]
+        }, material);
       })
     })]
   });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Recipes);
 
 /***/ }),
 
@@ -34727,6 +34812,26 @@ if (false) {} else {
 }
 
 
+/***/ }),
+
+/***/ "./src/images/swc-sword.png":
+/*!**********************************!*\
+  !*** ./src/images/swc-sword.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/b53bc62d78899818ecf9.png";
+
+/***/ }),
+
+/***/ "./src/images/sword.svg":
+/*!******************************!*\
+  !*** ./src/images/sword.svg ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwZTE5MmM7fS5jbHMtMSwuY2xzLTIsLmNscy00e3N0cm9rZTojNjdkZGZmO30uY2xzLTEsLmNscy0ye3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDowLjFweDt9LmNscy0yLC5jbHMtMywuY2xzLTR7ZmlsbDojNjdkZGZmO30uY2xzLTR7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDowLjAzcHg7fTwvc3R5bGU+PC9kZWZzPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSI4LjQ5IDEwLjM5IDguODggOS44NiAyOS44MyAyNS44NiAzMC43MSAyNi45NyAyOS40IDI2LjQzIDguMSAxMC45MiA4LjQ5IDEwLjM5Ii8+PHBvbHlsaW5lIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSI4LjQ5IDEwLjM5IDguODggOS44NiAyOS44MyAyNS44NiAzMC43MSAyNi45NyIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTcuNTksOS4yOCw3LjIxLDlhMi41NywyLjU3LDAsMCwwLS41My0zLjYsMi44MiwyLjgyLDAsMCwwLTIuNjEtLjI4Yy0uNDkuMjUtLjg3LjQtMS4yNiwwYS43LjcsMCwwLDEsLjA4LTEuMDZjLjE5LS4xNC4yNy0uMDcuMzMsMGEuMjQuMjQsMCwwLDEsMCwuMzJjLS4wOC4xMi0uMzEuMTYtLjM1LjI0YS4yNC4yNCwwLDAsMCwuMS4zYy4yMS4xNS4zOC4xNS45My0uMTdBMywzLDAsMCwxLDcsNSwzLDMsMCwwLDEsNy41OSw5LjI4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEuNTIsNi4xN2EuNzMuNzMsMCwwLDEtLjA2LTEsLjczLjczLDAsMCwxLDEtLjIzLDEuMzUsMS4zNSwwLDAsMCwuODEsMS4xMkwzLDYuMzNsLS4yMS4yOUExLjM2LDEuMzYsMCwwLDAsMS41Miw2LjE3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTMuMTUsNi43N2wuMzgtLjUxQTEuNTgsMS41OCwwLDAsMSw0LDYuNDhhMS40LDEuNCwwLDAsMSwuMzMuMTksMS40MSwxLjQxLDAsMCwxLC4yOC4yNiwxLjMyLDEuMzIsMCwwLDEsLjM0LjIsMS43NiwxLjc2LDAsMCwxLC4yOC4yNiwxLjQ2LDEuNDYsMCwwLDEsLjMzLjIsMS40MSwxLjQxLDAsMCwxLC4yOC4yNkExLjkzLDEuOTMsMCwwLDEsNi4xNCw4YTIuNDIsMi40MiwwLDAsMSwuMjguMjcsMS44NiwxLjg2LDAsMCwxLC4zMy4xOUExLjQ1LDEuNDUsMCwwLDEsNyw4Ljc3LDEuNDUsMS40NSwwLDAsMSw3LjM3LDljLjQuMy41OS43MS40My45MmwuMzUuMjZjLS4xNi4yMS0uNjEuMTQtMS0uMTVhMi40MiwyLjQyLDAsMCwxLS4yOC0uMjcsMS44NiwxLjg2LDAsMCwxLS4zMy0uMTksMS44LDEuOCwwLDAsMS0uMjgtLjI3LDEuNDUsMS40NSwwLDAsMS0uMzQtLjE5LDEuMTUsMS4xNSwwLDAsMS0uMjctLjI3LDEuMjgsMS4yOCwwLDAsMS0uMzQtLjE5QTEuNDQsMS40NCwwLDAsMSw1LDguMzRhMS42OSwxLjY5LDAsMCwxLS42MS0uNDUsMS4zMiwxLjMyLDAsMCwxLS4zNC0uMiwxLjc2LDEuNzYsMCwwLDEtLjI4LS4yNiwxLjg2LDEuODYsMCwwLDEtLjMzLS4xOUExLDEsMCwwLDEsMy4xNSw2Ljc3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQuNTMsNi45YTEuNDEsMS40MSwwLDAsMC0uMjgtLjI2LDEuNDYsMS40NiwwLDAsMC0uMzMtLjIsMS44MiwxLjgyLDAsMCwwLS40My0uMjFsLS4wOS4xMWExLjc1LDEuNzUsMCwwLDEsLjQzLjIyLDEuNDUsMS40NSwwLDAsMSwuMzQuMTlBMS40NCwxLjQ0LDAsMCwxLDQuNDUsN2ExLjQsMS40LDAsMCwxLC4zMy4xOSwxLjQ0LDEuNDQsMCwwLDEsLjI4LjI3LDEuNDUsMS40NSwwLDAsMSwuMzQuMTksMS4zNCwxLjM0LDAsMCwxLC4yNy4yNiwxLjMyLDEuMzIsMCwwLDEsLjM0LjIsMS43NiwxLjc2LDAsMCwxLC4yOC4yNiwxLjg2LDEuODYsMCwwLDEsLjMzLjE5LDEuODIsMS44MiwwLDAsMSwuMjguMjdBMS42MywxLjYzLDAsMCwxLDcuMjQsOWMuNC4zLjU5LjcxLjQzLjkyTDgsMTAuMmEuMjcuMjcsMCwwLDAsLjEyLS4wOWwtLjM1LS4yNmMuMTYtLjIxLDAtLjYzLS40My0uOTJBMS42OCwxLjY4LDAsMCwwLDcsOC43NGExLjQ0LDEuNDQsMCwwLDAtLjI4LS4yNywxLjQsMS40LDAsMCwwLS4zMy0uMTlBMS40NCwxLjQ0LDAsMCwwLDYuMSw4YTEuOTMsMS45MywwLDAsMC0uMzQtLjE5LDIuNDIsMi40MiwwLDAsMC0uMjgtLjI3LDEuODYsMS44NiwwLDAsMC0uMzMtLjE5LDIuNDIsMi40MiwwLDAsMC0uMjgtLjI3QTEuOTMsMS45MywwLDAsMCw0LjUzLDYuOVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik04Ljc3LDEwLjZhMi4zMiwyLjMyLDAsMCwxLTMuMjYuNDhMOC4zLDcuMzRBMi4zMywyLjMzLDAsMCwxLDguNzcsMTAuNloiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjIuNzciIHk9IjYuMjciIHdpZHRoPSIwLjgyIiBoZWlnaHQ9IjAuMzQiIHJ4PSIwLjAyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4yNSA3Ljc0KSByb3RhdGUoMTI2LjcyKSIvPjxjaXJjbGUgY2xhc3M9ImNscy0zIiBjeD0iMy4wMyIgY3k9IjQuMiIgcj0iMC4xIi8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMy45NCIgeTE9IjYuNDkiIHgyPSIzLjI1IiB5Mj0iNi45MyIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjUuMTciIHkxPSI3LjQxIiB4Mj0iNC40IiB5Mj0iNy44NSIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjUuNzkiIHkxPSI3Ljg3IiB4Mj0iNS4wMiIgeTI9IjguMzEiLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSI2LjQiIHkxPSI4LjMzIiB4Mj0iNS42NCIgeTI9IjguNzciLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSI0LjU1IiB5MT0iNi45NSIgeDI9IjMuNzgiIHkyPSI3LjM5Ii8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iNy4wMiIgeTE9IjguNzkiIHgyPSI2LjI1IiB5Mj0iOS4yMyIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTUuNTEsMTEuMDhoMGwyLjQtMy4yMWEyLjI2LDIuMjYsMCwwLDEsLjYzLDMsLjc1Ljc1LDAsMCwwLC4yMy0uMjRBMi4zMywyLjMzLDAsMCwwLDguMyw3LjM0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTIuNDUsNC45M2EuNzMuNzMsMCwwLDAtMSwuMjNsLS4wNi4wOGEuNjMuNjMsMCwwLDEsLjg4LS4wOWMuMDguNS4yOC42My44OSwxbC4wOS0uMTFBMS4zNSwxLjM1LDAsMCwxLDIuNDUsNC45M1oiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik01LjEyLDQuNDVBLjMxLjMxLDAsMCwwLDUsNC42N2EuMzUuMzUsMCwwLDAsLjExLjI1QTMuMjMsMy4yMywwLDAsMSw1Ljc4LDVhLjMuMywwLDAsMCwuMTMtLjI0LjI4LjI4LDAsMCwwLS4xMS0uMjRBMy4yMSwzLjIxLDAsMCwwLDUuMTIsNC40NVoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy4yNCA2LjA4IDMuMjIgNi4xMSAzLjQ5IDYuMzEgMy41MSA2LjI4IDMuMjQgNi4wOCIvPjwvc3ZnPg==";
+
 /***/ })
 
 /******/ 	});
@@ -34783,6 +34888,18 @@ if (false) {} else {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -34806,6 +34923,29 @@ if (false) {} else {
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
