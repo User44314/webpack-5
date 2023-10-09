@@ -35,10 +35,12 @@
 # npm i react react-dom
 
 # npm i -D @babel/preset-react
-#
-#
-#
-#
+
+# npm i -D html-webpack-plugin
+
+# npm run clean
+# npm run build-dev
+# npm i -D clean-webpack-plugin
 #
 #
 #
