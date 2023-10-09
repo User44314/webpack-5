@@ -30,4 +30,17 @@
 
 # npm i -D postcss postcss-preset-env postcss-loader
 
+# REACT
+
+# npm i react react-dom
+
+# npm i -D @babel/preset-react
+#
+#
+#
+#
+#
+#
+#
+#
 #
