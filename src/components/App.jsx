@@ -10,7 +10,7 @@ const App = () => {
       <section className="hero"></section>
       <main>
         <section>
-          <h1>Oh hi react</h1>
+          <h1>Oh hi react how are you!!!!!</h1>
         </section>
         <img src={sword} alt="sword" width="250px"></img>
         <img src={swordSvg} alt="swordSvg" width="250px"></img>

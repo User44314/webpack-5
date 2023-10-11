@@ -1,7 +1,8 @@
 const path = require("path");
+const REactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin =require("html-webpack-plugin");
-const {CleanWebpackPlugin} = require("clean-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 let mode = "development";
 let target = "web";
@@ -15,9 +16,11 @@ module.exports = {
   mode: mode,
   target: target,
 
+  entry: "./src/index.js",
+
   output: {
     path: path.resolve(__dirname, "dist"),
-    assetModuleFilename: "images/[hash][ext][query]"
+    assetModuleFilename: "images/[hash][ext][query]",
   },
 
   module: {
@@ -25,7 +28,7 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset",
-       /*  parser:{
+        /*  parser:{
           dataUrlCondition: {
             maxSize: 30 * 1024,
           },
@@ -36,7 +39,7 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: { publicPath: ""},
+            options: { publicPath: "" },
           },
           "css-loader",
           "postcss-loader",
@@ -53,9 +56,14 @@ module.exports = {
     ],
   },
 
-  plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
-    template: "./src/index.html",
-  })],
+  plugins: [
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+    }),
+    new REactRefreshWebpackPlugin(),
+  ],
   resolve: {
     extensions: [".js", ".jsx"],
   },

@@ -41,7 +41,7 @@
 # npm run clean
 # npm run build-dev
 # npm i -D clean-webpack-plugin
-#
+# npm i -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 #
 #
 #
